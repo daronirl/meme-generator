@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img--nav {
+    width: 50px;
+}
+
+input {
+    width: 30%;
+    height: 45px;
+    margin-top: 60px;
+    border: 2px solid #D5D4D8;
+    border-radius: 5px;
+}
