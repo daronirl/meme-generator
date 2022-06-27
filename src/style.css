@@ -2,14 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    font-family: "Karla", sans-serif;
+}
+
 .img--nav {
     width: 50px;
 }
 
-input {
+
+.form--input {
     width: 30%;
     height: 45px;
     margin-top: 60px;
     border: 2px solid #D5D4D8;
     border-radius: 5px;
+    text-indent: 10px;
+    border: 1px solid black;
 }
+
+.form--button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: #fff;
+    width: 70%;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 1em;
+    font-family: "Karla", sans-serif;
+    
+}
+
