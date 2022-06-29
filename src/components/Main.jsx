@@ -1,13 +1,18 @@
 
 
 function Main() {
+    function handleClick() {
+      console.log('hey there');
+    }
+
+
   return (
-    <main className="main--form">
-        <form className="form flex flex-row justify-around">
+    <main>
+        <div className="form flex flex-row justify-around">
            <input type="text" className="form--input basis-auto"/>
            <input type="text" className="form--input basis-auto"/>
-         </form>
-         <button className="form--button">Get a new meme image 🖼</button>
+         </div>
+         <button onClick={handleClick} className="form--button">Get a new meme image 🖼</button>
     </main>
   )
 }
